@@ -1,0 +1,67 @@
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header h1 {
+  /* Decendant selector */
+  font-weight: 400;
+}
+header {
+  display: flex;
+  justify-content: space-between; /* to give space */
+  margin: 0 3rem;
+}
+nav {
+  position: relative; /* It's allow us to change the positions */
+  top: 1rem;
+  right: 3rem;
+  width: 20rem;
+}
+ul {
+  display: flex; /* ek hi line me laane ke liye */
+  justify-content: space-between;
+}
+li {
+  list-style: none; /* To remove bullets or many things */
+  font-size: 1.5rem;
+}
+.showcase_img {
+  /* class selector */
+  width: 90vw; /* use vw to adjust image according to website page */
+  margin: 1rem;
+}
+article {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem;
+  font-size: 1.4rem;
+}
+.container {
+  /* class selector */
+
+  text-align: center; /* element at the centre */
+  margin-right: 2rem;
+  padding: 1rem;
+}
+
+h2 {
+  font-weight: 400;
+}
+footer {
+  background-color: black;
+  color: aliceblue;
+  height: 4rem;
+  display: flex; /* arrange horizontly bydefault */
+  justify-content: center;
+  align-items: center; /* arrage vertical */
+  font-size: 1.5rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* pseudo classes */
+a:hover {
+  /* */
+  color: rgb(255, 0, 0);
+  font-size: 2rem;
+}
